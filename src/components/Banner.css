@@ -1,0 +1,12 @@
+.banner-content{
+    padding-top: 450px;
+    padding-left: 3rem;
+    width: 45rem;
+}
+.banner-content>h1{
+    font-size: 3rem;
+}
+.banner-content>h3{
+    font-size: 1rem;
+    padding-top: 1rem;
+}

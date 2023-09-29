@@ -1,0 +1,15 @@
+.nav-bar{
+    /* need to fix as fixed even if scrolled */
+    /* top and bottom as per requirement need to set as required bcos browser by default try to set tpop and bottom  */
+    top:0px;
+    width: 100%;
+    position: fixed;
+/* as no z-index assigned to any element , we can give 1 */
+    z-index: 1;
+    padding-left: 1rem;
+    padding-top: 1rem
+
+}
+.black_bg{
+    background-color: #000000
+}

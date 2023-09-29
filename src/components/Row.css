@@ -1,0 +1,30 @@
+.row{
+    margin-left:10px;
+    margin-bottom: 20px;
+}
+/* for horizontal sccroll */
+::-webkit-scrollbar{
+    /* --------------------------------------------------------------------------1a */
+    display: none;
+}
+/* horizontal scroll seen for movie-row class so overflow=scrloll */
+.movies-row{
+    display: flex;
+    /* --------------------------------------------------------------------------1b */
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+.movie{
+    /* width 100% of parent div */
+    /* width:100%; */
+    max-height :200px;
+    margin-right: 20px;
+    object-fit: contain;
+    transition: transform 460ms;
+} 
+.movie:hover{
+    transform: scale(1.06);
+} 
+.movie-poster{
+    max-height: 300px;
+}
